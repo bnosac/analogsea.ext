@@ -1,0 +1,20 @@
+Package: analogsea.ext
+Type: Package
+Title: Extensions to work with the analogsea package. Currently only to use ggmap::geocode at DigitalOcean
+Description: Extensions to work with the analogsea package. Currently only to use ggmap::geocode at DigitalOcean.
+Author: Jan Wijffels <jwijffels@bnosac.be>
+Maintainer: Jan Wijffels <jwijffels@bnosac.be>
+License: AGPL-3 + file LICENSE
+Copyright: BNOSAC <info@bnosac.be>
+Version: 1.0
+URL: https://github.com/jwijffels/analogsea.ext
+Date: 2016-04-04
+Depends:
+    analogsea,
+    magrittr
+Imports:
+    ggmap
+Suggests:
+    knitr
+VignetteBuilder: knitr
+RoxygenNote: 5.0.1
